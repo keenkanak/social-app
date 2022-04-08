@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://keenkanak:keenkanak@socialappcluster.8sfll.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://keenkanak:keenkanak@socialappcluster.8sfll.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jsonSecret": "MySecret"
 }
