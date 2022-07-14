@@ -1,4 +1,6 @@
 {
     "mongoURI": "mongodb+srv://keenkanak:keenkanak@socialappcluster.8sfll.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-    "jsonSecret": "MySecret"
+    "jsonSecret": "MySecret",
+    "githubClient": "fd889cad2da42ab08bfd",
+    "githubClientSecret": "ac3816484c957c5df2ffef5f5a6ec2baf2e41ec8"
 }

@@ -1,9 +1,9 @@
-const mongoose = require("mongoose")
+const mongoose = require('mongoose')
 
 const ProfileSchema = new mongoose.Schema({
 	user: {
-		type: mongoose.Schema.Types.String,
-		ref: "user",
+		type: mongoose.Schema.Types.ObjectId,
+		ref: 'user',
 	},
 	company: {
 		type: String,
@@ -40,6 +40,7 @@ const ProfileSchema = new mongoose.Schema({
 			},
 			location: {
 				type: String,
+				required: true,
 			},
 			from: {
 				type: Date,
@@ -110,4 +111,4 @@ const ProfileSchema = new mongoose.Schema({
 	},
 })
 
-module.exports = mongoose.model("profile", ProfileSchema)
+module.exports = mongoose.model('profile', ProfileSchema)
