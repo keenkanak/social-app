@@ -25,11 +25,6 @@ app.use(express.json({ extended: false }))
 
 // app.use('/api', createProxyMiddleware({ target: 'https://localhost:4000', changeOrigin: true }));
 
-//API Definition
-app.get("/", (req, res) => {
-	console.log("running")
-	res.send("Running")
-})
 
 //API Routes
 app.use("/api/user", require("./routes/user"))
